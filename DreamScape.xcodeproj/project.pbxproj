@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0371487F25497F72AD0CAE0E /* SceneGeneratorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC9767F194EAF62AD2BC47 /* SceneGeneratorClient.swift */; };
 		0458E65F449547EF63BE5880 /* DreamScapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515B6300C9A17E1A03F743D /* DreamScapeTests.swift */; };
+		1F538509762B79691D40012E /* MoodPropagationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED362AE59BD56D97C4274DB1 /* MoodPropagationEngine.swift */; };
+		2035A69BFC917D1486AB5487 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D0E4A9E6FEA8951D459F1 /* Mood.swift */; };
 		26759B2E648506B2B2AA3DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB77E3091890A5697732726 /* Assets.xcassets */; };
+		280EDAEE3840F3868D3FEE1A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 6A7F8F1A44F25DCC14B48C20 /* ComposableArchitecture */; };
+		30672B13518EFF747DC9CEFA /* SceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D3482AFAF2AAF8539D4C6 /* SceneState.swift */; };
 		3245177C8C3852F2B892E1DD /* DreamScapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E654769401F77D3ABEB2755 /* DreamScapeApp.swift */; };
+		4107DC9D26D2274F758F8093 /* DreamScapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6223106E39EC3DB7C3B5FFA0 /* DreamScapeView.swift */; };
+		5264E589670ED5FE585695AF /* DreamSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7D77419AD7C7D7DE65DAC4 /* DreamSession.swift */; };
+		5D30F8BEE32BF32E99BBFCE8 /* AudioLayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E191FE5CC31F6B6733285 /* AudioLayerManager.swift */; };
+		656AA6F6DB3FE84CA193186A /* DreamScapeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE614E59587FF5C5764F4297 /* DreamScapeFeature.swift */; };
 		893639FB938E7A09998EA5C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA47501124104B696CB3A2 /* ContentView.swift */; };
+		A1120FA67C94832EA0C3FF1C /* OpenClawTCA in Frameworks */ = {isa = PBXBuildFile; productRef = 249E677E0160B21A8DBC6A86 /* OpenClawTCA */; };
+		D12B00C367D167E9056E60A2 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9C67BC5F4E5F4FB780DF41A9 /* Supabase */; };
+		DCB559050B5F0C47BC6273DC /* OpenClawCore in Frameworks */ = {isa = PBXBuildFile; productRef = E9F093D603E01C1354F44AD0 /* OpenClawCore */; };
+		EA03DD142F5C14F87C9F7548 /* OpenClawSupabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9C71E618173EA24C688A85B3 /* OpenClawSupabase */; };
+		EEDE47CA90B0CC87E876131E /* SessionPersistenceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF50BCCFFB41BA23B82081 /* SessionPersistenceClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +39,38 @@
 
 /* Begin PBXFileReference section */
 		2DB77E3091890A5697732726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48AF50BCCFFB41BA23B82081 /* SessionPersistenceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPersistenceClient.swift; sourceTree = "<group>"; };
+		518D0E4A9E6FEA8951D459F1 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		5A7D77419AD7C7D7DE65DAC4 /* DreamSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamSession.swift; sourceTree = "<group>"; };
+		6223106E39EC3DB7C3B5FFA0 /* DreamScapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamScapeView.swift; sourceTree = "<group>"; };
 		6515B6300C9A17E1A03F743D /* DreamScapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamScapeTests.swift; sourceTree = "<group>"; };
+		65CC9767F194EAF62AD2BC47 /* SceneGeneratorClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneGeneratorClient.swift; sourceTree = "<group>"; };
 		6E654769401F77D3ABEB2755 /* DreamScapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamScapeApp.swift; sourceTree = "<group>"; };
+		712E191FE5CC31F6B6733285 /* AudioLayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLayerManager.swift; sourceTree = "<group>"; };
 		825CB5BC7A7B56A21C63BE14 /* DreamScape.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DreamScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84489D985408A03E27F4DE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ADB6C349BDC0BED6CE619973 /* DreamScapeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DreamScapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33D3482AFAF2AAF8539D4C6 /* SceneState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneState.swift; sourceTree = "<group>"; };
 		EBCA47501124104B696CB3A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED362AE59BD56D97C4274DB1 /* MoodPropagationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPropagationEngine.swift; sourceTree = "<group>"; };
+		EE614E59587FF5C5764F4297 /* DreamScapeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamScapeFeature.swift; sourceTree = "<group>"; };
 		F90F1D642CE7AB42852BB7DF /* DreamScape.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DreamScape.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5A72FAC2494BE584B970A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280EDAEE3840F3868D3FEE1A /* ComposableArchitecture in Frameworks */,
+				D12B00C367D167E9056E60A2 /* Supabase in Frameworks */,
+				DCB559050B5F0C47BC6273DC /* OpenClawCore in Frameworks */,
+				EA03DD142F5C14F87C9F7548 /* OpenClawSupabase in Frameworks */,
+				A1120FA67C94832EA0C3FF1C /* OpenClawTCA in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		12CA6EF34C68A3B88C9E2F7A /* DreamScapeTests */ = {
@@ -43,6 +81,27 @@
 			path = DreamScapeTests;
 			sourceTree = "<group>";
 		};
+		1CED0FAEB2DDD34EBCBF5D1F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				712E191FE5CC31F6B6733285 /* AudioLayerManager.swift */,
+				ED362AE59BD56D97C4274DB1 /* MoodPropagationEngine.swift */,
+				65CC9767F194EAF62AD2BC47 /* SceneGeneratorClient.swift */,
+				48AF50BCCFFB41BA23B82081 /* SessionPersistenceClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3A25AC3FDDA4EB99AF97FD61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A7D77419AD7C7D7DE65DAC4 /* DreamSession.swift */,
+				518D0E4A9E6FEA8951D459F1 /* Mood.swift */,
+				B33D3482AFAF2AAF8539D4C6 /* SceneState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A848D0264C765798BCE540D0 = {
 			isa = PBXGroup;
 			children = (
@@ -50,6 +109,15 @@
 				12CA6EF34C68A3B88C9E2F7A /* DreamScapeTests */,
 				C83ACC8A7FA99C80F55BAD59 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		BD9E7F5348465CF37B2DE251 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EE614E59587FF5C5764F4297 /* DreamScapeFeature.swift */,
+				6223106E39EC3DB7C3B5FFA0 /* DreamScapeView.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 		C83ACC8A7FA99C80F55BAD59 /* Products */ = {
@@ -69,6 +137,9 @@
 				F90F1D642CE7AB42852BB7DF /* DreamScape.entitlements */,
 				6E654769401F77D3ABEB2755 /* DreamScapeApp.swift */,
 				84489D985408A03E27F4DE68 /* Info.plist */,
+				BD9E7F5348465CF37B2DE251 /* Features */,
+				3A25AC3FDDA4EB99AF97FD61 /* Models */,
+				1CED0FAEB2DDD34EBCBF5D1F /* Services */,
 			);
 			path = DreamScape;
 			sourceTree = "<group>";
@@ -82,6 +153,7 @@
 			buildPhases = (
 				BDEE5A7CDBBA9E6CF01FE80C /* Sources */,
 				5E96FAE7F86411840DE12579 /* Resources */,
+				DC5A72FAC2494BE584B970A7 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -89,6 +161,11 @@
 			);
 			name = DreamScape;
 			packageProductDependencies = (
+				6A7F8F1A44F25DCC14B48C20 /* ComposableArchitecture */,
+				9C67BC5F4E5F4FB780DF41A9 /* Supabase */,
+				E9F093D603E01C1354F44AD0 /* OpenClawCore */,
+				9C71E618173EA24C688A85B3 /* OpenClawSupabase */,
+				249E677E0160B21A8DBC6A86 /* OpenClawTCA */,
 			);
 			productName = DreamScape;
 			productReference = 825CB5BC7A7B56A21C63BE14 /* DreamScape.app */;
@@ -137,6 +214,11 @@
 			);
 			mainGroup = A848D0264C765798BCE540D0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				48828587F174C0BAC0A740C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				1211568ECD646C24793EB8DA /* XCRemoteSwiftPackageReference "OpenClawKit" */,
+				365AAA91138C3D8FDC849DF3 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
@@ -171,8 +253,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D30F8BEE32BF32E99BBFCE8 /* AudioLayerManager.swift in Sources */,
 				893639FB938E7A09998EA5C5 /* ContentView.swift in Sources */,
 				3245177C8C3852F2B892E1DD /* DreamScapeApp.swift in Sources */,
+				656AA6F6DB3FE84CA193186A /* DreamScapeFeature.swift in Sources */,
+				4107DC9D26D2274F758F8093 /* DreamScapeView.swift in Sources */,
+				5264E589670ED5FE585695AF /* DreamSession.swift in Sources */,
+				2035A69BFC917D1486AB5487 /* Mood.swift in Sources */,
+				1F538509762B79691D40012E /* MoodPropagationEngine.swift in Sources */,
+				0371487F25497F72AD0CAE0E /* SceneGeneratorClient.swift in Sources */,
+				30672B13518EFF747DC9CEFA /* SceneState.swift in Sources */,
+				EEDE47CA90B0CC87E876131E /* SessionPersistenceClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8643C988C4;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DreamScape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -247,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8643C988C4;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DreamScape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,7 +412,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -377,7 +470,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -413,6 +506,61 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1211568ECD646C24793EB8DA /* XCRemoteSwiftPackageReference "OpenClawKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Diomandeee/OpenClawKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		365AAA91138C3D8FDC849DF3 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		48828587F174C0BAC0A740C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		249E677E0160B21A8DBC6A86 /* OpenClawTCA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1211568ECD646C24793EB8DA /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawTCA;
+		};
+		6A7F8F1A44F25DCC14B48C20 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48828587F174C0BAC0A740C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		9C67BC5F4E5F4FB780DF41A9 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 365AAA91138C3D8FDC849DF3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		9C71E618173EA24C688A85B3 /* OpenClawSupabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1211568ECD646C24793EB8DA /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawSupabase;
+		};
+		E9F093D603E01C1354F44AD0 /* OpenClawCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1211568ECD646C24793EB8DA /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 539BFDD820806A2FD150151A /* Project object */;
 }
