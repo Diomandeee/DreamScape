@@ -15,7 +15,7 @@ packages:
     from: "2.0.0"
   OpenClawKit:
     url: https://github.com/Diomandeee/OpenClawKit
-    from: "1.0.0"
+    exactVersion: "1.0.2"
 
 settings:
   base:
@@ -38,8 +38,6 @@ targets:
         product: OpenClawCore
       - package: OpenClawKit
         product: OpenClawSupabase
-      - package: OpenClawKit
-        product: OpenClawTCA
     info:
       path: DreamScape/Info.plist
       properties:
